@@ -38,7 +38,10 @@ class TagsController implements \Anax\DI\IInjectionAware
 														 ->execute();
 				$max = ceil(count($check) / $limit);
 				
-				$tags = $this->tags->query()
+				$tags = $this->tags->query('tags.*, count(question_tags.id) AS count')
+													 ->leftJoin('question_tags', 'question_tags.tags_id = tags.id')
+													 ->groupBy('tags.id')
+													 ->orderBy('count DESC')
 													 ->limit($limit)
 													 ->offset($offset)
 													 ->execute();

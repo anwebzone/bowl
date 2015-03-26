@@ -16,7 +16,9 @@
 					if(!empty($tags[$y])){
 							$html .= '<div class="tag">
 													<h4><a href="' . $this->url->create('tags/showtag/' . strtolower(urlencode($tags[$y]->name))) . '">#' . $tags[$y]->name . '</a></h4>
-													<p class="tags-text">' . $tags[$y]->text . '</p></div>';
+													<p class="tags-text">' . $tags[$y]->text . '</p><br/>
+													<p class="tags-text" style="position:absolute;bottom:5px;"><i class="fa fa-question-circle"></i> ' . $tags[$y]->count . '</p>
+											  </div>';
 					}
 					$y++;
 			}
