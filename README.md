@@ -25,6 +25,47 @@ I nerladdningen av BOWL finns det en SQL fil med alla tabeller som behövs för 
 Du måste importera bowl.sql genom phpMyAdmin eller MySQL command line.
 
 
+###Bowl Build
+
+Bowl är baserat på Anax MVC ett micro ramverk skapat i PHP. 
+
+Du kan läsa lite mer om det här:
+["Anax som MVC-ramverk"](http://dbwebb.se/kunskap/anax-som-mvc-ramverk)  
+["Bygg en me-sida med Anax-MVC"](http://dbwebb.se/kunskap/bygg-en-me-sida-med-anax-mvc). 
+["Anax - en hållbar struktur för dina webbapplikationer"](http://dbwebb.se/kunskap/anax-en-hallbar-struktur-for-dina-webbapplikationer) för none-MVC varianten. 
+
+Ramverket är utvecklat av Mikael Roos, me@mikaelroos.se.
+
+
+License 
+------------------
+
+This software is free software and carries a MIT license.
+
+
+
+Use of external libraries
+-----------------------------------
+
+The following external modules are included and subject to its own license.
+
+
+
+### Modernizr
+* Website: http://modernizr.com/
+* Version: 2.6.2
+* License: MIT license 
+* Path: included in `webroot/js/modernizr.js`
+
+
+
+### PHP Markdown
+* Website: http://michelf.ca/projects/php-markdown/
+* Version: 1.4.0, November 29, 2013
+* License: PHP Markdown Lib Copyright © 2004-2013 Michel Fortin http://michelf.ca/ 
+* Path: included in `3pp/php-markdown`
+
+
 
 
 
