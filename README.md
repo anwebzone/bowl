@@ -24,6 +24,11 @@ I nerladdningen av BOWL finns det en SQL fil med alla tabeller som behövs för 
 
 Du måste importera bowl.sql genom phpMyAdmin eller MySQL command line.
 
+####Demo konto
+I bowl.sql följer det med ett demo konto "Doe"
+
+Login: john.doe@dbwebb.se/john.doe
+
 
 ###Bowl Build
 
