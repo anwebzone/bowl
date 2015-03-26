@@ -30,7 +30,8 @@ I bowl.sql följer det med ett demo konto "Doe"
 Login: john.doe@dbwebb.se/john.doe
 
 
-###Bowl Build
+Bowl Build
+-------------------
 
 Bowl är baserat på Anax MVC ett micro ramverk skapat i PHP. 
 
