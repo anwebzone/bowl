@@ -30,8 +30,11 @@ Du måste importera bowl.sql genom phpMyAdmin eller MySQL command line.
 Bowl är baserat på Anax MVC ett micro ramverk skapat i PHP. 
 
 Du kan läsa lite mer om det här:
-["Anax som MVC-ramverk"](http://dbwebb.se/kunskap/anax-som-mvc-ramverk)  
+
+["Anax som MVC-ramverk"](http://dbwebb.se/kunskap/anax-som-mvc-ramverk) 
+ 
 ["Bygg en me-sida med Anax-MVC"](http://dbwebb.se/kunskap/bygg-en-me-sida-med-anax-mvc). 
+
 ["Anax - en hållbar struktur för dina webbapplikationer"](http://dbwebb.se/kunskap/anax-en-hallbar-struktur-for-dina-webbapplikationer) för none-MVC varianten. 
 
 Ramverket är utvecklat av Mikael Roos, me@mikaelroos.se.
