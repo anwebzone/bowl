@@ -4,7 +4,8 @@ BOWL - Frågeforum
 Bowl är ett frågeforum för bowlingintresserade. Syftet är öka bowlingintresset samt sprida kunskap om sporten. Vem som helst kan ställa frågor och besvara andras frågor, allt man behöver är ett konto.
 
 
-###Installation
+Installation
+-------------------
 
 Du kan enkelt klona en egen version av detta repository genom att använda:
 > git clone https://github.com/anwebzone/bowl.git
