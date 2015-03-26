@@ -51,13 +51,6 @@ CREATE TABLE IF NOT EXISTS `questions` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=29 ;
 
---
--- Dumpning av Data i tabell `questions`
---
-
-INSERT INTO `questions` (`id`, `creator`, `title`, `text`, `created`) VALUES
-(28, 'john', 'Välkommen till Bowl!', 'Funktioner jag hade velat skulle finnas om tiden hade funnits:\r\n\r\nRadera svar, kommentarer och frågor. Återställa lösenord. PM inbox. Admin funktioner\r\n', 1427380647);
-
 -- --------------------------------------------------------
 
 --
@@ -72,13 +65,6 @@ CREATE TABLE IF NOT EXISTS `question_tags` (
   KEY `tags_id` (`tags_id`),
   KEY `q_id` (`q_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=27 ;
-
---
--- Dumpning av Data i tabell `question_tags`
---
-
-INSERT INTO `question_tags` (`id`, `tags_id`, `q_id`) VALUES
-(26, 24, 28);
 
 -- --------------------------------------------------------
 
