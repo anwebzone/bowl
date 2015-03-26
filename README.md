@@ -12,13 +12,15 @@ Du kan enkelt klona en egen version av detta repository genom att använda:
 Alternativt ladda ner direkt här:
 > https://github.com/anwebzone/bowl/archive/master.zip
 
-#####MySQL databas behövs
+
+####MySQL databas behövs
 För att installera en egen version av BOWL behöver du tillgång till en egen MySQL databas.
 I nerladdningen av BOWL finns det en SQL fil med alla tabeller som behövs för att BOWL ska fungera.
 
 > sql/bowl.sql
 
-Om du har tillgång till phpmyadmin kan du enkelt importera sql filen och köra den direkt för att skapa tabellstrukturen.
+Du måste importera bowl.sql genom phpMyAdmin eller MySQL command line.
+
 
 
 
