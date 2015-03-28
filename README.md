@@ -75,6 +75,14 @@ The following external modules are included and subject to its own license.
 * License: PHP Markdown Lib Copyright © 2004-2013 Michel Fortin http://michelf.ca/ 
 * Path: included in `3pp/php-markdown`
 
+### CForm
+* Website: https://github.com/mosbth/cform/tree/v2
+* By Mikael Roos (me@mikaelroos.se)
+
+### CDatabase
+* Website: https://github.com/mosbth/cdatabase
+* By Mikael Roos (me@mikaelroos.se)
+
 
 
 
