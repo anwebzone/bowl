@@ -215,7 +215,7 @@ class QuestionsController implements \Anax\DI\IInjectionAware
 												return true;
 										}
 								]],
-								'class'				=> 'padding5 textarea',
+								'class'				=> 'padding5 textarea2',
             ],
 						'submit' => [
                 'type'      => 'submit',
@@ -261,8 +261,9 @@ class QuestionsController implements \Anax\DI\IInjectionAware
 				}
 				
 				$this->di->theme->setTitle("Svara på fråga");
-        $this->di->views->add('default/page', [
+        $this->di->views->add('bowl/answers/answer', [
             'title' => "Svara på frågan",
+						'question' => $check,
             'content' => $form->getHTML()
         ], 'main-large');
 				
@@ -304,7 +305,7 @@ class QuestionsController implements \Anax\DI\IInjectionAware
 												return true;
 										}
 								]],
-								'class'				=> 'padding5 textarea',
+								'class'				=> 'padding5 textarea2',
             ],
 						'submit' => [
                 'type'      => 'submit',
@@ -349,8 +350,9 @@ class QuestionsController implements \Anax\DI\IInjectionAware
 				}
 				
 				$this->di->theme->setTitle("Kommentera svaret på frågan");
-        $this->di->views->add('default/page', [
+        $this->di->views->add('bowl/answers/comment', [
             'title' => "Kommentera svaret på frågan",
+						'answer' => $check,
             'content' => $form->getHTML()
         ], 'main-large');
 				

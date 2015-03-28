@@ -2522,6 +2522,10 @@ form fieldset {
   width: 640px;
   min-height: 200px;
 }
+.textarea2 {
+  width: 880px;
+  min-height: 200px;
+}
 .text-wide {
   width: 640px;
 }
